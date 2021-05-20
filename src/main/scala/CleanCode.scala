@@ -5,7 +5,7 @@ class CleanCode {
     var secondvalue = 0
   }
 
-    def mainFunction(arrayofnumbers: Array[Int], Inputnumber: Int): parameters  = {
+    def MinimumMaximumValue(arrayofnumbers: Array[Int], Inputnumber: Int): parameters  = {
 
       if (Inputnumber == 1) forValue1(arrayofnumbers)
       else {
@@ -56,8 +56,8 @@ object myCleanCodeAssignment{
 
     val ArrayOfNumbers = Array(1000, 11, 445, 1, 330, 3000)
     val InputNumber  = 6
-    val FinalResult  =  CleanCodeObject.mainFunction(ArrayOfNumbers, InputNumber)
-    println( "FirstValue"-> FinalResult.firstvalue)
-    println( "SecondValue"-> FinalResult.secondvalue)
+    val FinalResult  =  CleanCodeObject.MinimumMaximumValue(ArrayOfNumbers, InputNumber)
+    println( "MinimumValue"-> FinalResult.firstvalue)
+    println( "MaximumValue"-> FinalResult.secondvalue)
   }
 }
